@@ -28,7 +28,7 @@ module.exports = function(controller) {
         var options = {
             provider: 'google',
             httpAdapter: 'https',
-            apiKey: 'TEST',
+            apiKey: process.env.optionsAPIKey,
             formatter: null
         };
 
